@@ -1,5 +1,5 @@
 import projImg2 from "../img/project-img2.jpg";
-import projImg1 from "../img/project-img1.jpg";
+import projImg1 from "../img/project-img1.png";
 import projImg3 from "../img/project-img3.jpg";
 import projImg4 from "../img/project-img4.jpg";
 import projImg6 from "../img/project-img6.jpg";
