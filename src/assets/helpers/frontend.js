@@ -1,6 +1,5 @@
-import projImg2 from "../img/project-img2.jpg";
 import projImg1 from "../img/project-img1.png";
-import projImg3 from "../img/project-img3.jpg";
+import projImg2 from "../img/project-img2.png";
 import projImg4 from "../img/project-img4.jpg";
 import projImg6 from "../img/project-img6.jpg";
 import projImg7 from "../img/project-img7.jpg";
@@ -11,23 +10,15 @@ export const projects1 = [
     title: "React Blog Application",
     description: "React.js and Google Firebase",
     imgUrl: projImg1,
+    githubUrl:"https://github.com/Mehmet-Durna/firebase_blog_app",
+    websiteUrl:"https://mehmet-durna.github.io/firebase_blog_app/",
   },
   {
-    title: "Django Blog Application",
-    description: "Django",
-    imgUrl: projImg3,
-  },
-  {
-    title: "Bank Site",
-    description: "Vanilla Javascript",
+    title: "Java Spring Boot Appointment App",
+    description: "Java Spring Boot and Thymeleaf",
     imgUrl: projImg2,
   },
-  {
-    title: "Food Order Application",
-    description: "React and Google Firebase",
-    imgUrl:
-      "https://user-images.githubusercontent.com/93737841/179282895-8e1eca2c-ec22-4a86-a79e-6abc38126f15.jpg",
-  },
+
 ];
 
 export const projects2 = [
