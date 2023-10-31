@@ -33,13 +33,13 @@ const Projects = () => {
                       className="nav-pills mb-5 justify-content-center align-items-center"
                       id="pills-tab"
                     >
-                      <Nav.Item>
+                      <Nav.Item  role="button">
                         <Nav.Link eventKey="first">Full Stack</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      <Nav.Item role="button">
                         <Nav.Link eventKey="second">Frontend</Nav.Link>
                       </Nav.Item>
-                      <Nav.Item>
+                      <Nav.Item role="button">
                         <Nav.Link eventKey="third">Backend</Nav.Link>
                       </Nav.Item>
                     </Nav>
@@ -63,28 +63,28 @@ const Projects = () => {
                           })}
                         </Row>
                       </Tab.Pane>
-                      <Tab.Pane eventKey="third">
-                        <Row>
-                          <p>
-                            Flight API with Django Rest Framework:{" "}
-                            <a
-                              href="https://github.com/omerfdasar/flight-app-Django"
-                              target="_blank"
-                            >
-                              Source Code
-                            </a>
-                          </p>
-                          <p>
-                            Student API :{" "}
-                            <a
-                              href="https://github.com/omerfdasar/student_api"
-                              target="_blank"
-                            >
-                              Source Code
-                            </a>
-                          </p>
-                        </Row>
-                      </Tab.Pane>
+                      {/*<Tab.Pane eventKey="third">*/}
+                      {/*  <Row>*/}
+                      {/*    <p>*/}
+                      {/*      Flight API with Django Rest Framework:{" "}*/}
+                      {/*      <a*/}
+                      {/*        href="https://github.com/omerfdasar/flight-app-Django"*/}
+                      {/*        target="_blank"*/}
+                      {/*      >*/}
+                      {/*        Source Code*/}
+                      {/*      </a>*/}
+                      {/*    </p>*/}
+                      {/*    <p>*/}
+                      {/*      Student API :{" "}*/}
+                      {/*      <a*/}
+                      {/*        href="https://github.com/omerfdasar/student_api"*/}
+                      {/*        target="_blank"*/}
+                      {/*      >*/}
+                      {/*        Source Code*/}
+                      {/*      </a>*/}
+                      {/*    </p>*/}
+                      {/*  </Row>*/}
+                      {/*</Tab.Pane>*/}
                     </Tab.Content>
                   </Tab.Container>
                 </div>
