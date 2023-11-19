@@ -4,6 +4,7 @@ import projImg3 from "../img/project-img3.png";
 import projImg4 from "../img/project-img4.png";
 import projImg5 from "../img/project-img5.png";
 import projImg6 from "../img/project-img6.png";
+import projImg7 from "../img/project-img7.png";
 export const projects1 = [
   {
     title: "React and Spring Boot Movie Application",
@@ -30,6 +31,13 @@ export const projects2 = [
     imgUrl: projImg1,
     githubUrl:"https://github.com/Mehmet-Durna/firebase_blog_app",
     websiteUrl:"https://react-firebase-mehmet-blogapp.netlify.app/#/",
+  },
+  {
+    title: "Next.js Car Showcase Application",
+    description: "TypeScript, Tailwind CSS and Next.js",
+    imgUrl: projImg7,
+    githubUrl:"https://github.com/Mehmet-Durna/nextjs_car_showcase",
+    websiteUrl:"https://nextjs-car-showcase-ipn63026u-mehmets-projects-dfa81eea.vercel.app/",
   },
   {
     title: "Rtk Blog Application",
